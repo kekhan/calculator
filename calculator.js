@@ -14,9 +14,8 @@ function main(button){
 }
 
 function clear(str){
-	var clear =0
-	document.getElementById('screen').Location.reload() ;
-
+	var newStr ="";
+	document.getElementById('screen').innerHTML=newStr;
 }
 function equal(str){
 	var newStr=str.replace("=","");
