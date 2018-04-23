@@ -8,9 +8,7 @@ h1{
 	font-style: italic;
 	font-weight: bold; 
 }
-.operator{
-	background-color: red; 
-}
+
 .box{
 	margin: auto;
 	width: 300px;
@@ -24,7 +22,7 @@ h1{
     display: inline inline-block;
     background-color: gray;
     font-size: 30px;
-    width: 50px;
+    width: 45px;
     height: 50px;
     margin: 0;
     
@@ -33,6 +31,9 @@ h1{
 	background-color: white;
 	font-size: 20px;
 	border-radius: 10px;
+}
+.row1, .row2, .row3,.row4{
+	display: flex;
 }
 
 
